@@ -7,7 +7,7 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    // "build": "tsc && vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview",
     "testing": "tsc && vite build --mode testing",
     "staging": "tsc && vite build --mode staging",
@@ -25,7 +25,8 @@
     "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.4.4",
     "react-typewriter-effect": "^1.1.0",
-    "swiper": "^9.0.5"
+    "swiper": "^9.0.5",
+    "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",

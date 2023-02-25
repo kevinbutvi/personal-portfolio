@@ -40,7 +40,7 @@ function Home() {
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
             <TypeWriterEffect
-              text="I'm a really apasionate Fullstack Developer."
+              text="I'm a really passionate Fullstack Developer."
               startDelay={3500}
               cursorColor="white"
               typeSpeed={80}
