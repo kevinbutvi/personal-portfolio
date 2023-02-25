@@ -1,5 +1,5 @@
 import React from "react";
-import TypeWriterEffect from "react-typewriter-effect";
+import Typewriter from "typewriter-effect";
 
 import dev_gif from "../assets/gifs/dev_gif.gif";
 
@@ -52,19 +52,23 @@ function Home() {
               Hi!
               <br />
             </span>
-            <TypeWriterEffect
-              text="My name is Kevin Butvilofsky"
-              startDelay={1000}
-              cursorColor="white"
-              typeSpeed={80}
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .pauseFor(1000)
+                  .typeString("My name is Kevin Butvilofsky")
+                  .start();
+              }}
             />
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-            <TypeWriterEffect
-              text="I'm a really passionate Fullstack Developer."
-              startDelay={3500}
-              cursorColor="white"
-              typeSpeed={80}
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .pauseFor(3500)
+                  .typeString("I'm a really passionate Fullstack Developer.")
+                  .start();
+              }}
             />
           </h4>
           <a href="#aboutMe">
