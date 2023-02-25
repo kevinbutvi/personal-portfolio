@@ -165,7 +165,7 @@ function Navbar() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="w-8 h-8"
+                className="w-9 h-9"
               >
                 <path
                   fillRule="evenodd"
@@ -178,7 +178,7 @@ function Navbar() {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="w-8 h-8"
+                className="w-9 h-9"
               >
                 <path
                   fillRule="evenodd"
