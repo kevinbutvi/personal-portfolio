@@ -47,7 +47,7 @@ function Home() {
       </div>
       <div className="w-11/12 flex-1">
         <div className="md:text-left text-center">
-          <h1 className="md:text-5xl text-xl md:leading-normal leading-8 text-white font-bold">
+          <h1 className="md:text-4xl text-xl md:leading-normal leading-8 text-white font-bold">
             <span className="text-cyan-600 md:text-6xl text-2xl">
               Hi!
               <br />
@@ -61,7 +61,7 @@ function Home() {
               }}
             />
           </h1>
-          <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
+          <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-400">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
