@@ -36,13 +36,13 @@ function Home() {
   return (
     <section
       id="home"
-      className="min-h-screen flex py-14 md:flex-row flex-col items-center"
+      className="min-h-screen flex pt-14 md:flex-row flex-col items-center"
     >
-      <div className="flex-1 flex flex-items justify-center my-10">
+      <div className="flex-1 flex flex-items justify-center md:my-10 my-2">
         <img
           src={dev_gif}
           alt="profile"
-          className="md:w-9/12 md:h-[24rem] h-[12rem] my-auto object-cover rounded-3xl"
+          className="md:w-9/12 md:h-[24rem] h-full w-10/12 my-auto object-cover rounded-3xl"
         />
       </div>
       <div className="w-11/12 flex-1">
@@ -55,24 +55,24 @@ function Home() {
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  .pauseFor(1000)
+                  .pauseFor(400)
                   .typeString("My name is Kevin Butvilofsky")
                   .start();
               }}
             />
           </h1>
-          <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-400">
+          <h4 className="md:text-2xl text-lg md:leading-normal leading-5 md:mt-4 mt-2 font-bold text-gray-400">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
-                  .pauseFor(3500)
+                  .pauseFor(4500)
                   .typeString("I'm a really passionate Fullstack Developer.")
                   .start();
               }}
             />
           </h4>
           <a href="#aboutMe">
-            <button type="button" className="btn-primary md:m-4 m-8">
+            <button type="button" className="btn-primary md:m-4 m-4">
               Let me show You more...
             </button>
           </a>

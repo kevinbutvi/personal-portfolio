@@ -9,7 +9,7 @@ function AboutMe() {
     { text: "Companies Work", count: "02" },
   ];
   return (
-    <section id="aboutMe" className="py-14 text-white">
+    <section id="aboutMe" className="pt-14 text-white">
       <div className="text-center my-8">
         <h3 className="md:text-4xl text-3xl font-semibold">
           About <span className="text-cyan-600">Me</span>
@@ -18,7 +18,7 @@ function AboutMe() {
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
-              <p className="text-justify leading-7 w-11/12 mx-auto">
+              <p className="text-justify leading-7 w-12/12 mx-auto">
                 I’m a technology enthusiast, I love challenges, so I’m training
                 myself every day to increase my knowledge.
                 <br />

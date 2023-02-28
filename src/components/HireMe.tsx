@@ -4,7 +4,7 @@ import hireMe from "../assets/images/pickme.jpg";
 
 function HireMe() {
   return (
-    <section id="hireme" className="py-24 px-3 text-white">
+    <section id="hireme" className="pt-24 px-3 text-white">
       <div className="text-center">
         <h3 className="md:text-4xl text-3xl font-semibold">
           Hire <span className="text-cyan-600">Me</span>
@@ -13,7 +13,7 @@ function HireMe() {
           Do you have an open position?
         </p>
       </div>
-      <div className="bg-gray-700 relative px-8 rounded-2xl py-5 md:max-w-4xl mx-auto min-h-[24rem] md:mt-24 mt-2 flex gap-6 lg:flex-row flex-col-reverse items-center">
+      <div className="bg-gray-700 relative md:px-8 px-4 rounded-2xl py-5 md:max-w-4xl mx-auto min-h-[24rem] md:mt-24 mt-2 flex gap-6 lg:flex-row flex-col-reverse items-center">
         <div>
           <div className="md:text-2xl text-xl font-semibold">
             <h2 className="my-3">I am a Professional Ready to Work</h2>
@@ -21,7 +21,7 @@ function HireMe() {
               <span className="text-cyan-600">Why You Should Hire Me... </span>
             </h2>
           </div>
-          <p className="lg:text-left text-justify max-w-lg text-md mt-4 pr-5 text-gray-200 leading-6">
+          <p className="lg:text-left text-justify max-w-lg text-md mt-4 md:pr-5 text-gray-200 leading-6">
             Because in the personal aspect, I am a very honest, an respectful
             person and kind every time. I can handle stress situations and I
             have a very good relationship with people. <br />
