@@ -9,7 +9,7 @@ function ErrorMessage({ message }: MessageProps) {
       role="alert"
     >
       <svg
-        className="fill-current md:w-4 w-8 md:h-4 w-8 mr-2"
+        className="fill-current md:w-4 w-8 md:h-4 h-8 mr-2"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
       >

@@ -5,11 +5,11 @@ import { MessageProps } from "../types/message";
 function SuccessMessage({ message }: MessageProps) {
   return (
     <div
-      className="flex items-center bg-green-500 text-white text-sm font-bold px-4 py-3 rounded-xl"
+      className="flex items-center bg-green-600 text-white text-sm font-bold px-4 py-3 rounded-xl"
       role="alert"
     >
       <svg
-        className="fill-current md:w-4 w-8 md:h-4 w-8 mr-2"
+        className="fill-current md:w-4 w-8 md:h-4 h-8 mr-2"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
       >
