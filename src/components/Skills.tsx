@@ -15,14 +15,14 @@ function Skills() {
       name: "HTML5",
       logo: logoHtml,
       level: "Advance",
-      percentage: 98,
+      percentage: 97,
       size: "md:w-[5rem] w-[3rem]",
     },
     {
       name: "CSS",
       logo: logoCss,
       level: "Advance",
-      percentage: 90,
+      percentage: 85,
       size: "md:w-[5rem] w-[3rem]",
     },
     {
@@ -50,7 +50,7 @@ function Skills() {
       name: "Django",
       logo: logoDjango,
       level: "Advance",
-      percentage: 90,
+      percentage: 80,
       size: "w-[7rem]",
     },
     {

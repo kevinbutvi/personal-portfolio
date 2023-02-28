@@ -80,7 +80,7 @@ function Home() {
             {socialMedia.map((media) => (
               <a href={media.link} key={media.name}>
                 <div className="text-gray-600 hover:text-white cursor-pointer">
-                  <div className="min-w-[2.5rem] min-h-[2.5rem] flex items-center justify-center bg-cyan-500 rounded-full">
+                  <div className="min-w-[2.5rem] min-h-[2.5rem] flex items-center justify-center bg-cyan-600 rounded-full">
                     {media.logo}
                   </div>
                 </div>
