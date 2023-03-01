@@ -116,7 +116,7 @@ function Navbar() {
   ];
   const [sticky, setSticky] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-  const menuRef = useRef();
+  const menuRef = useRef<any>();
 
   useEffect(() => {
     const handler = (e: any) => {
