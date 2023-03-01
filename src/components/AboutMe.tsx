@@ -19,17 +19,17 @@ function AboutMe() {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-12/12 mx-auto">
-                I’m a technology enthusiast, I love challenges, so I’m training
+                I’m a technology enthusiast. I love challenges, so I’m training
                 myself every day to increase my knowledge.
                 <br />
-                I consider myself a very capable person, with an open mind and
+                I consider myself a very capable person, with an open mind, and
                 agile to learn new things and give solutions to problems. I can
                 perform in various areas of my competence without any problem,
                 individually or in work groups. <br />I have experience in
                 <span className="text-cyan-300 font-bold"> Python</span>,{" "}
                 <span className="text-cyan-300 font-bold"> Django</span> and{" "}
                 <span className="text-cyan-300 font-bold"> FastAPI</span> in
-                Back-End,{" "}
+                Back-End;{" "}
                 <span className="text-cyan-300 font-bold"> JavaScript</span> and{" "}
                 <span className="text-cyan-300 font-bold"> React</span> in the
                 Front-End side, and working with Agile Frameworks like

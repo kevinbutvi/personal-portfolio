@@ -16,18 +16,18 @@ function HireMe() {
       <div className="bg-gray-700 relative md:px-8 px-4 rounded-2xl py-5 md:max-w-4xl mx-auto min-h-[24rem] md:mt-24 mt-2 flex gap-6 lg:flex-row flex-col-reverse items-center">
         <div>
           <div className="md:text-2xl text-xl font-semibold">
-            <h2 className="my-3">I am a Professional Ready to Work</h2>
+            <h2 className="my-3">I'm a Professional Ready to Work</h2>
             <h2>
               <span className="text-cyan-600">Why You Should Hire Me... </span>
             </h2>
           </div>
           <p className="lg:text-left text-justify max-w-lg text-md mt-4 md:pr-5 text-gray-200 leading-6">
-            Because in the personal aspect, I am a very honest, an respectful
-            person and kind every time. I can handle stress situations and I
-            have a very good relationship with people. <br />
-            About the proffesional aspect, I am self-organized and a very
-            commited person. <br />I love challenges, learn new things
-            everydays, I can adapt easily to a new work environments and give
+            Because in the personal aspect, I'm a very honest, respectful, and
+            kind person. I can handle stressful situations and I have a very
+            good relationship with people. <br />
+            About the professional aspect, I'm self-organized and a very
+            committed person. <br />I love challenges, and to learn new things
+            every day. I can adapt easily to a new work environments and give
             solutions to problems.
           </p>
           <a href="#contact">
